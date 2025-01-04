@@ -1,0 +1,95 @@
+
+
+body{
+  background-color: azure;
+}
+
+.form-section{
+  width: 36%;
+  margin: 5px;
+  padding: 10px;
+  /* background: beige */
+}
+
+.para{
+  width: 50%;
+  word-break: break-all;
+}
+
+.div-1{
+  background-color: aqua;
+}
+
+.button-1{
+  background: none;
+    border: none;
+    font-size: 20px;
+}
+.button-2{
+  background: none;
+    border: none;
+    font-size: 20px;
+}
+
+
+.styled-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+
+
+.styled-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 12px;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+
+.styled-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000a8;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loader .loader_icon {
+  border: 10px solid #f3f3f3; /* Light grey */
+  border-top: 10px solid #ff6600; /* Orange */
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  animation: spin 2s linear infinite;
+}
