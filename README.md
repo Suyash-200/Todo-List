@@ -10,7 +10,7 @@ A simple and intuitive To-Do List application to help you stay organized and pro
 - **React** 
 - **Context API**
 - **CSS**
-- 
+  
 ## How the Project is Built
 The To-Do List app is built by integrating a **REST API** to store and retrieve tasks from a database. This allows users to persist their data and access their tasks even after closing and reopening the application. 
 
